@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: lightgray;
+}
+
+nav {
+  width: 100%;
+  height: 26px;
+  background-color: black;
+  color: white;
+}
+
+nav img {
+  float: left;
+  padding-left: 50px;
+}
+
+nav ul {
+  float: left;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  padding: 0px 15px 15px 2px;
+  position: relative;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 4px;
+  display: block;
+}
+
+nav ul li ul {
+  display: none;
+  background-color: white;
+  height: 28px;
+  position: relative;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li a {
+  color: black;
+}
