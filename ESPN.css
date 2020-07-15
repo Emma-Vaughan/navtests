@@ -41,11 +41,14 @@ nav ul li ul {
   display: none;
   background-color: white;
   height: 28px;
-  position: relative;
+  position: absolute;
 }
 
 nav ul li:hover ul {
   display: block;
+  height: 28px;
+  display: flex;
+  flex-direction: row;
 }
 
 nav ul li ul li a {
