@@ -1,5 +1,10 @@
 <html>
   <head>
+    <meta
+      name="viewport"
+      content="width=device-width initial-scale=1,
+    minimum-scale=1"
+    />
     <link
       rel="stylesheet"
       type="text/css"
@@ -9,12 +14,15 @@
 
   <body>
     <nav>
-      <img src="/Users/Emma/Documents/ESPN/ESPNlogo.png" />
+      <img class="ESPN" src="/Users/Emma/Documents/ESPN/ESPNlogo.png" />
       <ul>
         <li>
           <a href="#">Football</a>
           <ul>
-            <img src="/Users/Emma/Documents/ESPN/footballicon.png" />
+            <img
+              class="football"
+              src="/Users/Emma/Documents/ESPN/footballicon.png"
+            />
             <li><a href="#">Home</a></li>
             <li><a href="#">Scores</a></li>
             <li><a href="#">Fixtures</a></li>
@@ -33,23 +41,28 @@
     </nav>
     <br />
     <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <article>
-      <img src="/Users/Emma/documents/ESPN/ManCity.png" />
-      <h2>Time for Man City to put UEFA rows in the past - and win the UCL</h2>
-      <p>
-        With Man City escaping a two-year Champions League ban, they can truly
-        move forward by winning the competition this season.
-      </p>
-    </article>
-    <article>
-      <img src="/Users/Emma/documents/ESPN/ManUnited.png" />
-      <h2>Man United slip leaves top-four race wide open</h2>
-    </article>
+    <div class="content">
+      <div class="ManCity">
+        <article>
+          <img class="cityimage" src="/Users/Emma/documents/ESPN/ManCity.png" />
+          <h2>
+            Time for Man City to put UEFA rows in the past - and win the UCL
+          </h2>
+          <p>
+            With Man City escaping a two-year Champions League ban, they can
+            truly move forward by winning the competition this season.
+          </p>
+        </article>
+      </div>
+      <div class="ManUnited">
+        <article>
+          <img
+            class="unitedimage"
+            src="/Users/Emma/documents/ESPN/ManUnited.png"
+          />
+          <h2>Man United slip leaves top-four race wide open</h2>
+        </article>
+      </div>
+    </div>
   </body>
 </html>
